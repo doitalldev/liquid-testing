@@ -1,0 +1,2 @@
+# basic-shopify-theme
+ 

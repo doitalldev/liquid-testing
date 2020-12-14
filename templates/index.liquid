@@ -1,0 +1,9 @@
+{% assign variable = "1,2,3,4,5,6" %} {% assign array = variable | split: ','%}
+
+<ul>
+  {% for number in array %}
+  <li>
+    {{ number }}
+  </li>
+  {% endfor%}
+</ul>
